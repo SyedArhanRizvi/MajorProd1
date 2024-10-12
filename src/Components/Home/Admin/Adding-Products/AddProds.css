@@ -1,0 +1,55 @@
+.productForm{
+    width: 100vw;
+    height: 90vh;
+    /* background: yellow; */
+    margin-top: 68px;
+    display: flex;
+    background: rgb(238, 228, 228);
+    justify-content: center;
+    align-items: center;
+}
+.productForm div{
+    width: 60%;
+    height: 50%;
+    border: 1px solid black;
+}
+.productForm div form{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+/* .productForm div form input{
+    width: 70%;
+    height: 15%;
+    padding-left: 5px;
+    font-weight: bold;
+    border-radius: 15px;
+    border: 1px solid gray;
+} */
+.productForm div form .file{
+    width: 70%;
+    height: 15%;
+    padding-left: 5px;
+    font-weight: bold;
+    border-radius: 15px;
+    border: 1px solid gray;
+}
+.productForm div form .btn{
+    width: 70%;
+    height: 15%;
+    padding-left: 5px;
+    font-weight: bold;
+    border-radius: 15px;
+    background: rgb(31, 9, 105);
+    transition: 0.5s;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+.productForm div form .btn:hover{
+    background: rgb(48, 28, 113);
+}

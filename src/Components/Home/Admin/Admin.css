@@ -1,0 +1,94 @@
+.adminSection{
+    width: 100vw;
+    margin-top: 66px;
+    display: flex;
+    flex-wrap: wrap;
+    /* background: yellow; */
+}
+.adminSection .headForAdmin{
+    width: 100%;
+    height: 4em;
+    /* background: green; */
+    /* padding: px; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: slategrey;
+}
+.adminSection .headForAdmin div {
+    width: 12%;
+    height: 50%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+.adminSection .headForAdmin div button{
+    width: 70%;
+    height: 80%;
+    font-size: 1em;
+    border: none;
+    background: rgb(37, 4, 98);
+    color: white;
+    font-weight: bold;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.adminSection .headForAdmin div button:hover{
+    background: rgb(57, 19, 128);
+}
+.adminSection .bodyForAllProds{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.adminSection .bodyForAllProds .prodCard{
+    width: 18em;
+    padding: 10px;
+    display: flex;
+    background: rgb(219, 212, 212);
+    flex-direction: column;
+    gap: 10px;
+    /* border: 1px solid black; */
+}
+.adminSection .bodyForAllProds .prodCard .img{
+    width: 100%;
+    height: 12em;
+}
+.adminSection .bodyForAllProds .prodCard .img img{
+    height: 100%;
+    width: 100%;
+}
+.adminSection .bodyForAllProds .prodCard div{
+    width: 100%;
+}
+.adminSection .bodyForAllProds .prodCard .btns{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.adminSection .bodyForAllProds .prodCard .btns button{
+    width: 25%;
+    height: 2.5em;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    background: darkslategrey;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.adminSection .bodyForAllProds .prodCard .btns button a{
+    text-decoration: none;
+    color: white;
+}
+.adminSection .bodyForAllProds .prodCard .btns button:hover{
+    background: rgb(66, 102, 102);
+}

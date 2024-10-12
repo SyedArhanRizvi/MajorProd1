@@ -1,0 +1,201 @@
+.landingPage{
+    width: 100vw;
+    background: rgb(238, 228, 228);
+    margin-top: 68px;
+}
+.landingPage .exploreNew {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+}
+.landingPage .exploreNew p a{
+    /* font-size: 1.1em; */
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    color: black;
+    font-weight: lighter;
+    transition: transform 0.8s ease-in;
+    transform-style: preserve-3d;
+}
+.landingPage .exploreNew p a:hover{
+    color: rgb(70, 69, 69);
+    text-decoration: underline;
+    
+}
+.landingPage .landingImgs{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+.landingPage .landingImgs .img{
+    height: 100%;
+    width: 100%;
+}
+.landingPage .landingImgs .img img{
+    height: 100%;
+    width: 100%;
+}
+.landingPage .landingCards{
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.landingPage .landingCards .card{
+    width: 25em;
+    height: 30em;
+    /* position: relative; */
+}
+.landingPage .landingCards .card .img{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.landingPage .landingCards .card .img img{
+    height: 100%;
+    width: 100%;
+    transition: 0.5s;
+}
+.landingPage .landingCards .card .img img:hover{
+    height: 105%;
+    width: 105%;
+    cursor: pointer;
+}
+.landingPage .yellowLine{
+    width: 100%;
+    height: 25em;
+    background-image: url("https://img.freepik.com/premium-photo/fashion-clothes-clothing-rack-generative-ai_123447-28696.jpg");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom:100px;
+}
+.landingPage .yellowLine .yellowTitle {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #0000006f;
+    gap: 30px;
+}
+.landingPage .yellowLine .yellowTitle div{
+    width: 70%;
+    color: white;
+    text-align: center;
+}
+.landingPage .yellowLine .yellowTitle div p{
+    font-size: 1.5em;
+}
+.landingPage .yellowLine .yellowTitle div button{
+    padding: 10px 30px;
+    color: black;
+    /* font-weight: bold; */
+    background: wheat;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 1.2em;
+}
+.landingPage .yellowLine .yellowTitle div button:hover{
+    background: rgb(228, 196, 136);
+}
+.landingPage .carousel {
+    width: 100%;
+    /* height: 20em; */
+    background: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+.landingPage .carousel .form {
+    width: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.landingPage .carousel .form div{
+    width: 70%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.landingPage .carousel .form div h1{
+    font-size: 2em;
+}
+.landingPage .carousel .form div p{
+    font-size: 1.2em;
+}
+.landingPage .carousel .form div form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.landingPage .carousel .form div form input {
+    width: 40%;
+    height: 3em;
+    padding-left: 10px;
+    font-weight: bold;
+    color: black;
+    border-radius: 8px;
+    border: none;
+}
+.landingPage .carousel .form div form textarea {
+    width: 40%;
+    height: 8em;
+    padding-left: 10px;
+    font-weight: bold;
+    color: black;
+    border-radius: 8px;
+    padding-top: 10px;
+    border: none;
+}
+.landingPage .carousel .form div form .btn {
+    width: 40%;
+    height: 3em;
+    padding-left: 10px;
+    font-weight: bold;
+    color: black;
+    border-radius: 8px;
+    border: none;
+    transition: 0.5s;
+}
+.landingPage .carousel .form div form .btn:hover{
+    background: wheat;
+    color: black;
+    cursor: pointer;
+}
+.landingPage .carousel2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+.landingPage .carousel2 .card{
+    width: 30%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.landingPage .carousel2 .card div{
+    width: 100%;
+}

@@ -1,0 +1,26 @@
+.ubdateProd{
+    width: 100vw;
+    height: 80vh;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ubdateProd .card{
+    width: 18em;
+    padding: 10px;
+    display: flex;
+    background: rgb(219, 212, 212);
+    flex-direction: column;
+    gap: 10px;
+}
+.ubdateProd .card .img{
+    width: 100%;
+}
+.ubdateProd .card .img img{
+    height: 100%;
+    width: 7em;
+}
+.ubdateProd .card div{
+    width: 100%;
+}

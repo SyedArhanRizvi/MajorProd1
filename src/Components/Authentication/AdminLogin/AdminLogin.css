@@ -1,0 +1,47 @@
+.admin{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.admin div{
+    height: 60%;
+    width: 40%;
+    border: 1px solid black;
+}
+.admin div form {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.admin div form input {
+    width: 75%;
+    height: 2em;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: black;
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding-left: 10px;
+}
+.admin div form .btn {
+    width: 75%;
+    height: 2em;
+    /* font-size: 1.2em;
+    font-weight: bold; */
+    color: black;
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding-left: 10px;
+    transition: 0.5s;
+}
+.admin div form .btn:hover{
+    cursor: pointer;
+    color: white;
+    background: rgb(70, 70, 70);
+}
